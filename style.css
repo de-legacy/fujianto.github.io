@@ -1,4 +1,71 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+img {
+	max-width: 100%;
+	width: 100%;
+}
+
+.main-title {
+    margin: 0;
+    font-size: 40px;
+}
+
+.site-header {
+    background: #ccc url(https://placeimg.com/640/480/arch/grayscale) no-repeat center;
+    background-size: cover;
+    color: #fafafa;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.site-header a {
+	color: crimson;
+	text-decoration: none;
+}
+
 figure {
 	margin: 0;
 	padding: 0;
+}
+
+.main {
+	width: 100%;
+}
+
+.col-row {
+	// display: flex;
+}
+
+.col-item {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 33%;
+}
+
+#portfolio h3, #portfolio p {
+	text-align: center;
+}
+
+#portfolio h3 {
+    margin: 40px 0 0 0;
+    font-size: 40px;
+}
+
+#portfolio p {
+    margin: 16px 0 40px 0;
+}
+
+div#portfolio .col-item figure {
+    background: #010101;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.content-title {
+	margin: 40px 0 0 0;
+	font-size: 40px;
 }
