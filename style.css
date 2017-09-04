@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	font-family: sans-serif;
@@ -11,6 +15,13 @@ img {
 .main-title {
     margin: 0;
     font-size: 40px;
+    text-shadow: 2px 2px #504949;
+}
+
+.sub-title {
+    margin: 1rem 10% 1rem 10%;
+    font-size: 20px;
+    text-shadow: 2px 2px #504949;
 }
 
 .site-header {
@@ -45,7 +56,7 @@ figure {
 	width: 33%;
 }
 
-#portfolio h3, #portfolio p {
+#portfolio h3, #portfolio p, #site-footer h3, #site-footer p {
 	text-align: center;
 }
 
@@ -68,4 +79,52 @@ div#portfolio .col-item figure {
 .content-title {
 	margin: 40px 0 0 0;
 	font-size: 40px;
+}
+
+input[type="text"], input[type="email"] {
+	height: 30px;
+	width: 100%;
+	padding: 10px;
+	border: 0;
+}
+
+textarea {
+	width: 100%;
+	padding: 10px;
+	border: 0;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+fieldset .form-group:last-of-type {
+	margin-bottom: 0;
+}
+
+fieldset {
+	padding: 20px;
+	border: 0;
+	background-color: salmon;
+}
+
+.site-footer form {
+	margin: 0 10%;
+}
+
+.site-footer fieldset {
+	margin-bottom: 1.5rem;
+}
+
+.btn {
+	padding: 10px 30px;
+	border: 1px solid #ccc;
+	background: #fff;
+	font-size: 15px;
+}
+
+.btn-send-mail {
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
