@@ -5,7 +5,7 @@
 
 body {
 	margin: 0;
-	font-family: sans-serif;
+	font-family: Verdana, sans-serif;
 }
 
 img {
@@ -30,11 +30,12 @@ img {
     background-size: cover;
     color: #fafafa;
     padding: 4rem 1rem;
+    background-attachment: fixed;
     text-align: center;
 }
 
 .site-header a {
-	color: crimson;
+	color: #fbdc00;
 	text-decoration: none;
 }
 
@@ -80,6 +81,10 @@ div#portfolio .col-item figure {
 .content-title {
 	margin: 40px 0 0 0;
 	font-size: 40px;
+}
+
+.content-title + p {
+	margin-bottom: 1.5rem;
 }
 
 input[type="text"], input[type="email"] {
