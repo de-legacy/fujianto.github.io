@@ -14,5 +14,4 @@ btnSendMail.addEventListener('click', function() {
 
 		return true;
 	}
-	
-})
+});
