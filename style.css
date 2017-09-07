@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	transition: ease-in all 0.5s;
+	transition: ease-in all 0.3s;
 }
 
 body {
@@ -188,4 +188,22 @@ fieldset {
 .col-item  img:hover + figcaption {
 	transform: scale(1.2);
 }
-    
+
+.bottom-bar {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+	background: #312f2f;
+}
+
+	.bottom-bar a {
+		color: #fafafa;
+		margin-right: 1.5rem;
+	}
+
+	.bottom-bar a:hover {
+		cursor: pointer;
+		color: gold;
+		transition: ease-in 0.1s all;
+		transform: scale(1.2);
+	}
